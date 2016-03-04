@@ -10,6 +10,8 @@ gcc -o dis -O3 root/bin/dis.c
 ./xc -o os2 -Iroot/lib root/usr/os/os2.c
 ./xc -o os3 -Iroot/lib root/usr/os/os3.c
 ./xc -o os4 -Iroot/lib root/usr/os/os4.c
+./xc -o lab1 -Iroot/lib root/usr/os/lab1.c
+./xc -o lab2 -Iroot/lib root/usr/os/lab2.c
 ./dis os1 -o os1.s -c
 ./dis os2 -o os2.s -c
 ./dis os3 -o os3.s -c

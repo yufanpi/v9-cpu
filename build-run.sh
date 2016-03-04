@@ -8,9 +8,13 @@ gcc -o xem -O3 -m32 -Ilinux -Iroot/lib root/bin/em.c -lm
 ./xc -o os1 -Iroot/lib root/usr/os/os1.c
 ./xc -o os2 -Iroot/lib root/usr/os/os2.c
 ./xc -o os3 -Iroot/lib root/usr/os/os3.c
+./xc -o lab1 -Iroot/lib root/usr/os/lab1.c
+./xc -o lab2 -Iroot/lib root/usr/os/lab2.c
 ./xem emhello
 ./xem funcall
 ./xem os0
 ./xem os1
 ./xem os2
 ./xem os3
+./xem lab1
+./xem lab2
